@@ -19,7 +19,7 @@ class CreateProject extends Component {
   render() {
     return (
       <div className="container">
-        <form onSubmit={this.handleSubmit} className="white">
+        <form onSubmit={this.handleSubmit} className="white grey lighten-3">
           <h5 className="grey-text text-darken-3">Create New Project</h5>
           <div className="input-field">
             <label htmlFor="title">Title</label>
@@ -30,7 +30,7 @@ class CreateProject extends Component {
            <textarea  id="content"  className="materialize-textarea" onChange={this.handleChange} ></textarea>
           </div>
           <div className="input-field">
-            <button className="btn pink lighten-1 z-depth-0">Create</button>
+            <button className="btn red lighten-1 z-depth-0">Create</button>
           </div>
         </form>
       </div>
