@@ -1,5 +1,6 @@
 import React from 'react';
 import ProjectSummary from "./ProjectSummary"
+import {Link} from "react-router-dom"
                       
 
                       //  prop
@@ -10,7 +11,9 @@ import ProjectSummary from "./ProjectSummary"
     {projects && projects.map(project =>{
       return(
         /* for each project we passing an individual project */
+        <Link to={"/project/" + project.id}>
         <ProjectSummary project={project} key={project.id} />
+        </Link>
       )
     })}
     </div>
