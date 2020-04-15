@@ -4,7 +4,7 @@ import 'firebase/auth'
 
 // Your web app's Firebase configuration
 var firebaseConfig = {
-  apiKey: "GROUP_API_ID",
+  apiKey: "AIzaSyDC6hOZjgZPhYwE7TXgsfg2myvjM_FA0ZQ",
   authDomain: "group-plans-e7cd4.firebaseapp.com",
   databaseURL: "https://group-plans-e7cd4.firebaseio.com",
   projectId: "group-plans-e7cd4",
