@@ -22,7 +22,7 @@ import React, { Component } from 'react'
     return (
       <div className="container">
         <form onSubmit={this.handleSubmit} className="white grey lighten-3">
-        <h5 className="grey-text text-darken-3">Sing Up</h5>
+        <h5 className="grey-text text-darken-3">Sign Up</h5>
         <div className="input-field">
           <label htmlFor="email">Email</label>
            <input type="email" id="email" onChange={this.handleChange}/> 
