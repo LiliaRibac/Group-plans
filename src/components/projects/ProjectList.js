@@ -11,8 +11,8 @@ import {Link} from "react-router-dom"
     {projects && projects.map(project =>{
       return(
         /* for each project we passing an individual project */
-        <Link to={"/project/" + project.id}>
-        <ProjectSummary project={project} key={project.id} />
+        <Link to={"/project/" + project.id} key={project.id}>
+        <ProjectSummary project={project}  />
         </Link>
       )
     })}
